@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <map key="path_3" value="redsun"/>
+  <map key="package" value="cn.fh.redsun"/>
+  <map key="path_2" value="fh"/>
+  <map key="dbpassword" value="123"/>
+  <map key="author" value="FH"/>
+  <map key="projectComment" value="\u7ea2\u65e5\u7269\u6d41\u7cfb\u7edf"/>
+  <map key="project" value="redsun"/>
+  <map key="dbuser" value="root"/>
+  <map key="path_1" value="cn"/>
+  <map key="db" value="redsun"/>
+  <map key="path_all" value="cn/fh/redsun"/>
+</root>

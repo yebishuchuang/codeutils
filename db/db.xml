@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db name="redsun" driverName="com.mysql.jdbc.Driver" userName="root" passWord="123" url="jdbc:mysql://127.0.0.1:3306/redsun?useUnicode=true&amp;characterEncoding=UTF8">
+  <property name="databaseTYPE">MYSQL</property>
+  <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+  <property name="generator">&lt;generator class="native"&gt;&lt;/generator&gt;</property>
+  <property name="driverName">com.mysql.jdbc.Driver</property>
+  <property name="url">jdbc:mysql://127.0.0.1:3306/redsun?useUnicode=true&amp;amp;characterEncoding=UTF8</property>
+  <table name="waybill" comment="" key="sn">
+    <column name="sn" type="Long" dbtype="BIGINT" comment="\u8fd0\u5355\u53f7" key="PRI" decimal_digits="0" colums_size="19"/>
+    <column name="userid" type="Long" dbtype="BIGINT" comment="\u7528\u6237ID" key="" decimal_digits="0" colums_size="19"/>
+    <column name="toaddress" type="String" dbtype="VARCHAR" comment="\u6536\u8d27\u5730\u5740" key="" decimal_digits="0" colums_size="100"/>
+    <column name="addressee" type="String" dbtype="VARCHAR" comment="\u6536\u8d27\u4eba" key="" decimal_digits="0" colums_size="100"/>
+    <column name="tele" type="String" dbtype="VARCHAR" comment="\u6536\u4ef6\u4eba\u7535\u8bdd" key="" decimal_digits="0" colums_size="100"/>
+    <column name="info" type="String" dbtype="VARCHAR" comment="\u8fd0\u5355\u8be6\u60c5" key="" decimal_digits="0" colums_size="2000"/>
+    <column name="state" type="String" dbtype="VARCHAR" comment="\u8fd0\u5355\u72b6\u6001" key="" decimal_digits="0" colums_size="1"/>
+  </table>
+  <table name="waybilldetail" comment="" key="id">
+    <column name="id" type="Long" dbtype="BIGINT" comment="ID" key="PRI" decimal_digits="0" colums_size="19"/>
+    <column name="sn" type="Long" dbtype="BIGINT" comment="\u8fd0\u5355\u53f7" key="" decimal_digits="0" colums_size="19"/>
+    <column name="exedate" type="String" dbtype="VARCHAR" comment="\u6267\u884c\u65e5\u671f" key="" decimal_digits="0" colums_size="10"/>
+    <column name="exetime" type="String" dbtype="VARCHAR" comment="\u6267\u884c\u65f6\u95f4" key="" decimal_digits="0" colums_size="10"/>
+    <column name="info" type="String" dbtype="VARCHAR" comment="\u6267\u884c\u4fe1\u606f" key="" decimal_digits="0" colums_size="100"/>
+  </table>
+</db>
